@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/undo"
+            android:icon="@drawable/undo"
+            app:showAsAction="always"
+            android:title="Add"/>
+    <item
+            android:id="@+id/redo"
+            android:icon="@drawable/redo"
+            app:showAsAction="always"
+            android:title="Add"/>
+    <item
+        android:id="@+id/action_pan"
+        android:icon="@drawable/tool_pan"
+        app:showAsAction="always"
+        android:title="Pan" />
+    <item
+            android:id="@+id/action_pen"
+            android:icon="@drawable/tool_pen"
+            app:showAsAction="always"
+            android:title="Add"/>
+    <!-- Download a list of images from a predefined link into Fotag. -->
+    <item
+            android:id="@+id/action_highlight"
+            android:icon="@drawable/tool_highlighter"
+            app:showAsAction="always"
+            android:title="Download"/>
+    <!-- Clear all images. -->
+    <item
+            android:id="@+id/action_erase"
+            android:icon="@drawable/tool_eraser"
+            app:showAsAction="always"
+            android:title="Delete"/>
+</menu>
